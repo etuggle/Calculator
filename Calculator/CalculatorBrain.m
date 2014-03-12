@@ -99,14 +99,6 @@
     return [self popOperandOffStack:stack];
 }
 
-//-(double) popOperand {
-//    NSNumber *operandObject = self.operandStack.lastObject;
-//    
-//    if (operandObject) [self.operandStack removeLastObject];
-//    NSLog(@"returning = %@", operandObject);
-//    return operandObject.doubleValue;
-//}
-
 -(void) clearStack
 {
     NSLog(@"Clear stack.");
