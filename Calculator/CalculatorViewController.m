@@ -78,6 +78,7 @@
         self.userIsEnteringANumber = NO;
     }
 }
+
 - (IBAction)clearPressed:(UIButton *)sender {
     // Clear the calculator
     
